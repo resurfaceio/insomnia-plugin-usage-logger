@@ -68,11 +68,21 @@ By setting the environment variable `USAGE_LOGGERS_DISABLE` to `true` the logger
 
 ## Manual installation
 
-- Clone this repo inside:
+1. Clone this repo inside:
   - **MacOS**: `~/Library/Application\ Support/Insomnia/plugins/`
   - **Windows**: `%APPDATA%\Insomnia\plugins\`
   - **Linux**: `$XDG_CONFIG_HOME/Insomnia/plugins/ or ~/.config/Insomnia/plugins/`
-- Install dependencies using `npm i`
+
+```
+git clone git@github.com:resurfaceio/insomnia-plugin.git insomnia-plugin-usage-logger
+```
+
+2. Install dependencies using `npm i`
+
+```
+cd insomnia-plugin-usage-logger
+npm i --omit=dev
+```
 
 ## Protecting User Privacy
 
